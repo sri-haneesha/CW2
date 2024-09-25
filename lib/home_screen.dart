@@ -10,33 +10,33 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final List<Map<String, dynamic>> recipes = [
     {
-      'name': 'Pasta',
-      'ingredients': [
-        '200g Pasta',
-        '2 tbsp Olive Oil',
-        '1 Onion',
-        '2 Garlic Cloves',
-        '100g Parmesan Cheese'
+      'name': 'Carbonara',
+      'Ingredients': [
+        'Spaghetti',
+        'Salt',
+        'Egg',
+        'Pepper',
+        'Parmigiano Reggiano'
       ],
     },
     {
       'name': 'Pizza',
-      'ingredients': [
-        '500g Dough',
-        '200g Tomato Sauce',
-        '150g Mozzarella',
-        '1 tbsp Olive Oil',
-        '1 tsp Oregano'
+      'Ingredients': [
+        'Dough',
+        'Favourite Sauce',
+        'Favourite Cheese',
+        'Olive Oil',
+        'Oregano'
       ],
     },
     {
-      'name': 'Salad',
-      'ingredients': [
-        '100g Lettuce',
-        '50g Feta Cheese',
-        '10 Olives',
-        '1 tbsp Olive Oil',
-        '1 tsp Vinegar'
+      'name': 'Mac & Cheese',
+      'Ingredients': [
+        'Elbow Macaroni',
+        'Butter',
+        'Milk',
+        'Cheese',
+        'Salt & Pepper'
       ],
     },
   ];
