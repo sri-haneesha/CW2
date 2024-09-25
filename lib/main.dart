@@ -12,17 +12,11 @@ class MyApp extends StatelessWidget {
       title: 'Recipe Book',
       theme: ThemeData(
         primarySwatch: Colors.red,
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          secondary:
-              Colors.white, // Replace accentColor with colorScheme.secondary
-        ),
-        textTheme: TextTheme(
-          bodyLarge: TextStyle(
-              color: Colors.black, fontSize: 18), // Replaces bodyText1
-          bodyMedium: TextStyle(
-              color: Colors.black, fontSize: 16), // Replaces bodyText2
-        ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: TextTheme(
+          bodyLarge: TextStyle(color: Colors.black, fontSize: 18),
+          bodyMedium: TextStyle(color: Colors.black, fontSize: 16),
+        ),
       ),
       home: HomeScreen(),
     );
