@@ -57,7 +57,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     ))
                 .toList(),
             SizedBox(height: 20),
-            Text('Recipe details and instructions go here...'),
+            Text('Recipe details'),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: toggleFavorite,
